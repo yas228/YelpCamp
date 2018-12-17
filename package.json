@@ -1,0 +1,22 @@
+{
+  "name": "yelp-camp",
+  "version": "1.0.0",
+  "description": "YelpCamp app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yas228/yelp-camp.git"
+  },
+  "author": "Yawo Alphonse Siatitse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yas228/yelp-camp/issues"
+  },
+  "homepage": "https://github.com/yas228/yelp-camp#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
