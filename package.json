@@ -1,6 +1,10 @@
 {
   "name": "yelp-camp",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.10.0",
+    "npm": "6.8.0"
+  },
   "description": "YelpCamp app",
   "main": "app.js",
   "scripts": {
