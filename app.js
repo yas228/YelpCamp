@@ -19,6 +19,16 @@ var commentRoutes    = require("./routes/comments"),
 var url = "mongodb://localhost/yelp_camp";
 mongoose.connect(url);
 
+const uri = "mongodb+srv://yelp-camp:yelpcamp@cluster0-vtabt.mongodb.net";
+
+mongoose.connect(uri, {
+        useNewUrlParser: true,
+        useCreateIndex: true
+    })
+    .then(console.log('Connected to mongodb'))
+    .catch((err) => console.log(err)
+    );
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
