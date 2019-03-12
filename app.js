@@ -19,7 +19,7 @@ var commentRoutes    = require("./routes/comments"),
 var url = "mongodb://localhost/yelp_camp";
 mongoose.connect(url);
 
-const uri = "mongodb+srv://yelp-camp:yelpcamp@cluster0-vtabt.mongodb.net";
+const uri = "mongodb+srv://yelp-camp:yelpcamp@cluster0-vtabt.mongodb.net/test";
 
 mongoose.connect(uri, {
         useNewUrlParser: true,
