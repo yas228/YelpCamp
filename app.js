@@ -15,8 +15,9 @@ var express     = require("express"),
 var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index")
-
-const uri = "mongodb+srv://yelp-camp:yelpcamp@cluster0-vtabt.mongodb.net/test";
+   
+//connecting to DB on atlas
+const uri = "mongodb+srv://heroku:heroku@yelp-camp-vtabt.mongodb.net/yelp-camp";
 
 mongoose.connect(uri, {
         useNewUrlParser: true,
