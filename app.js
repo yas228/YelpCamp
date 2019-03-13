@@ -17,7 +17,7 @@ var commentRoutes    = require("./routes/comments"),
     indexRoutes      = require("./routes/index")
    
 //connecting to DB on atlas
-const uri = "mongodb+srv://heroku:heroku@yelp-camp-vtabt.mongodb.net/yelp-camp";
+const uri = "mongodb+srv://heroku:heroku@yelp-camp-vtabt.mongodb.net/yelp-camp?retryWrites=true";
 
 mongoose.connect(uri, {
         useNewUrlParser: true,
